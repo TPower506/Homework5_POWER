@@ -64,10 +64,10 @@ namespace POWER_LAB2
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             //Take Text From Box 1 and Box 2 And Display Multiplication in answer box
-            double txt1 = Convert.ToDouble(txtBox1.Text);
-            double txt2 = Convert.ToDouble(txtBox2.Text);
+            int txt1 = Convert.ToDouble(txtBox1.Text);
+            int txt2 = Convert.ToDouble(txtBox2.Text);
 
-            double sum = txt1 * txt2;
+            int sum = txt1 * txt2;
 
             answerBox.Text = sum.ToString();
         }
