@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: green;
+    border: 1px solid;
+    font-family:  cursive;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: auto;
+    background: black;
+    padding: 15px;
+    border: 1px solid green;
+    font-size: 40px;
+    color: green;
+    font-family:  'MS Gothic';
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 18px;
+        height: auto;
+    }
+
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: black;
+    border: 1px solid green;
+    height: auto;
+    color: green;
+    font-family:  Verdana;
+    text-align: center;
+}
+
+
+footer 
+{
+    height: auto;
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    text-shadow: -1px 2px 2px red;
+    font-size: 30px;
+}
+
+body {
+    overflow: auto; /* Show scrollbars */
+}
+
+@media (max-width: 1000px) {
+
+
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px green;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: green;
+        border-radius: 10px;
+    }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: white;
+        }
+}
+
+.glow {
+    font-size: 60px;
+    color: green;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #32d50b, 0 0 30px #32900A, 0 0 40px #79fe5f, 0 0 50px #79fe5f, 0 0 60px #046206, 0 0 70px #046206;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #32d50b, 0 0 40px #32900A, 0 0 50px #04fc18, 0 0 60px #04fc18, 0 0 70px #04fc18, 0 0 80px #04fc18;
+    }
+}
+
+.footer1 {
+    float: left;
+    text-align: left;
+
+}
+
+.footer2 {
+
+    text-align: center;
+}
+
+.footer3 {
+    text-align: right;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: dotted;
+    background-color: black;
+    color: darkgreen;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor:  crosshair;
+    text-align: center;
+}
+
+    .block:hover {
+        background-color: black;
+        color: #04fc18;
+    }
+
+
+table, th, td {
+    border: 2px outset green;
+    color: green;
+    background-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+div.b {
+    text-align: left;
+    font-size: 25px;
+}
+div.a {
+    text-align: center;
+    font-size: 25px;
+}
+div.c {
+    text-align: right;
+    font-size: 25px;
+}
+div.d {
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Modern No. 20';
+}
+div.e {
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Modern No. 20';
+    
+}

@@ -1,0 +1,86 @@
+1. Identify four items that are typically included in the <head> section of an HTML 
+document. Explain the purpose of each item. (Hint: we have covered two items in class.)
+https://www.w3schools.com/TAGs/
+A)
+< title >: The title tag is used to Title the page
+< meta >: The meta tag or metadata is typically used to specify character set,page description or keywords.
+< style >: The Style tag is used to define style informtion(css) and how a page should render in a browser.
+< link >: The Link Tag defines the relationship between the current document and an external source. The link tag is often used to link style sheets.
+
+
+2. Give an example of each of the following tags and explain what they have in common: 
+<em>, <mark>, <strong>.
+https://www.w3schools.com/TAGs/
+A)
+< em >: Defines emphasized text.
+< mark >: Defines marked/highlighted text.
+< strong >: The Style tag is used to define style informtion(css) and how a page should render in a browser.
+
+- Each of these tags are commonly used in the styling of text on a page
+
+3. Explain the difference between the <blockquote> tag and the <q> tag. Give an example 
+of each that clearly illustrates the difference.
+https://www.w3schools.com/tags/tag_blockquote.asp
+A)
+< blockquote >: Defines a section that is quoted from another source.
+< q >: Defines a short quotation.
+
+Example of Each: While the < q > tag simply puts quotations between the text you want quotated, < blockquote > tag will include a website url to cite the source and the text quotated.
+
+
+4. Give three examples of ordered lists: one that uses the "start" attribute only, one that 
+uses the "type" attribute only, and one that uses both.
+https://www.w3schools.com/html/html_lists_ordered.asp
+A)
+< type > defines the type of the ordered list including type="1" being a numbered lists, type="A" is a numbered list with uppercase letters, type="i" is a numbered list with lowercase roman numbers.
+
+< start > tag defines in an ordered list what number to start at. Example: < ol start="50" > would start the list at #50.
+
+- Using both of these tags together you can start at any numeric or roman value. Ex: < ol type="I" start="50" >
+
+5. Give three examples of tags that are deprecated (made obsolete) in HTML5. Briefly 
+explain why each tag is no longer supported. (Warning: some tags were removed in 
+HTML4 but then restored, with a different purpose, in HTML5. So, be careful when 
+conducting your research. The official standard, and therefore the final word on the 
+subject, is published by the World Wide Web Consortium at http://www.w3.org)
+https://www.w3docs.com/learn-html/deprecated-html-tags.html
+A)
+Deprecated code in the IT world refers to code that is no longer recommended to use as there
+is a better alternative. The tags are allowed but newer ones are available.
+
+
+6. Add each of the following special symbols to your document:
+a. Happy face (smiley)  ☺
+b. Double right arrow »
+c. Yin and Yang ☯
+d. “Not an element of” (set theory) ∉
+e. Square with diagonal crosshatch fill ▩
+f. Fleur-de-lis
+g. Double-struck capital Z (symbol for the Integer number class)
+h. Euro currency
+A)
+☺
+»
+☯
+∉
+▩
+⚜
+ℤ
+€
+Mainly used Character Map or https://www.w3schools.com/html/html_charset.asp
+
+7. Give an example of each of the following tags and explain what they have in common: 
+<code>, <kbd>, <samp>.
+https://www.w3schools.com/tags/default.asp
+
+8. Explain the difference between the < del > tag and the < s > tag. Give an example of each 
+that clearly illustrates the difference.
+https://www.w3schools.com/tags/default.asp
+https://www.geeksforgeeks.org/why-big-tag-is-not-in-html5-while-small-tag-exists/
+
+9. Explain thoroughly why HTML5 supports the <small> tag but not the <big> tag.
+https://www.w3schools.com/tags/default.asp
+
+10. Create a definition list using the < dl >, < dt >, and < dd > tags. Your definition list should 
+contain at least three items
+https://www.w3schools.com/tags/default.asp

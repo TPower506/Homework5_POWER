@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Assignment 6 - Bus Ticket</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Inconsolata|PT+Sans|PT+Serif"
+            rel="stylesheet"
+        />
+        <style>
+            html {
+                font-size: 100%;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: 1.25em;
+                line-height: 1.4em;
+                color: #333;
+                font-family: "PT Serif", serif;
+            }
+
+            #content {
+                width: 70%;
+                margin: auto;
+            }
+
+            h1,
+            h2 {
+                font-family: "PT Sans", sans-serif;
+            }
+
+            h1 {
+                font-size: 1.6em;
+                color: #ff6600;
+            }
+
+            h2 {
+                font-size: 1.4em;
+                color: #003366;
+                border-bottom: #cccc99 solid 1px;
+                margin-top: 2em;
+            }
+
+            h3,
+            h4 {
+                font-family: "PT Sans", sans-serif;
+                color: #003366;
+            }
+
+            h3 {
+                font-size: 1.25em;
+                margin-top: 1.5em;
+            }
+
+            h4 {
+                font-size: 1.1em;
+                font-style: italic;
+            }
+
+            .code {
+                margin-left: 5%;
+                margin-right: 5%;
+                padding: 10px;
+                background-color: #cc9;
+                font-family: "Inconsolata", monospace;
+            }
+
+            .emphasis {
+                background-color: lightyellow;
+                font-weight: bold;
+            }
+
+            img {
+                border: dotted thin gray;
+            }
+
+            .prohibited {
+                font-size: 1.5em;
+                padding: 0.5em;
+                color: red;
+                border: dashed thick pink;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="content">
+            <h1>Assignment 6 - Bus Ticket</h1>
+
+            <h2>Instructions</h2>
+
+            <ol>
+                <li>
+                    Create the form shown below according to the specifications
+                    shown on the "sticky notes". Don't worry about the style of
+                    the form until the end of the assignment.
+
+                    <img
+                        src="formBlank_Annotated.png"
+                        alt="annotated blank form"
+                        width="100%"
+                    />
+
+                    The places in the drop-down boxes are:
+                    <p>
+                        <img src="places.png" alt="places in drop-down box" />
+                    </p>
+                </li>
+                <li>
+                    Ensure that the file "bus.js" is in the same folder as your
+                    HTML file and include the following in the &lt;head&gt;
+                    section of the HTML file:
+
+                    <div class="code">
+                        &lt;script src="bus.js"&gt;&lt;/script&gt;
+                    </div>
+                    <p>
+                        The file "bus.js" imports some JavaScript code that does
+                        the following:
+                    </p>
+
+                    <ul>
+                        <li>
+                            Checks your file to make sure that it follows the
+                            specifications.
+                        </li>
+                        <li>
+                            Detects when the "One Way" radio button is
+                            checked/unchecked and disables/enables the
+                            "returningDate" field.
+                        </li>
+                        <li>
+                            Detects when the "Submit" button is pressed and
+                            creates a popup window displaying the information
+                            entered on the form.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Open your HTML file in a browser and view the browser's
+                    <span class="emphasis">console</span>. (Right-click
+                    somewhere on the page, select "inspect", and then in the
+                    window that opens, select the "console" tab.)
+                </li>
+                <li>
+                    Take note of any error messages that appear in the console.
+                    (The messages all begin with "&lt;&lt; ERROR: ... ") Fix the
+                    appropriate error in your HTML so that the error messages no
+                    longer appear.
+                </li>
+                <li>
+                    Test the form thoroughly. Make sure the validation for the
+                    different input types is functioning as expected.
+                </li>
+                <li>
+                    Style the form to resemble the sample as closely as
+                    possible.
+                    <ul>
+                        <li class="prohibited">No inline styles!</li>
+                        <li class="prohibited">No tables!</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h2>Sample Result</h2>
+
+            <h3>Completed Form</h3>
+
+            <img src="formCompleted.png" alt="completed form" />
+
+            <h3>Result of Pressing "Submit"</h3>
+
+            <img
+                src="formCompleted_Alert.png"
+                alt="alert popup on completed form"
+            />
+        </div>
+    </body>
+</html>

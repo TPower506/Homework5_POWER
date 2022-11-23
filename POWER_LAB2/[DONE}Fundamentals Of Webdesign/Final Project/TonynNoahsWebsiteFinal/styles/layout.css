@@ -1,0 +1,170 @@
+body{
+    background: #0b1528;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+}
+
+
+            /* Sidebar:
+            logo - navigation links - hover effect - line breaks */
+
+.sidebar{
+    width: 300px;
+    position: fixed;
+}
+
+.logo{
+    position: relative;
+    margin: auto;
+    left: 30px;
+    top: 30px;
+    padding-bottom: 140px;
+}
+
+.nav{
+    background: #f6f6f6;
+    height: 60px;
+    width: 170px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    border-radius: 15% 0 0 15%;
+    color: darkgoldenrod;
+    font-size: 15px;
+    line-height: 45px;
+}
+
+.nav:hover{
+    background-color: #cfcfcf;
+    transform: scale(110%) translate(-7px);
+    transition: 0.2s;
+}
+
+.hovernav{
+    width: 250px;
+    background: #f6f6f6;
+    opacity: 100%;
+    transition: all 0.;
+    position: absolute;
+    left: 170px;
+    top: 0;
+    margin-top: -5px;
+    margin-left: -10px;
+    opacity: 1;
+    visibility: hidden;
+}
+
+.nav:hover .hovernav{
+    transition: 0.7s;
+    opacity: 1;
+    transform: translate(10px, 5px);
+    visibility: visible;
+}
+
+.hovernav ul{
+    list-style-type: none;
+    text-align: left;
+    font-size: 12pt;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    margin: 2%;
+
+}
+
+.hovernav ul li{
+    border: solid #f6f6f6 2px;
+    border-radius: 8px;
+    padding: 5px
+}
+
+.hovernav ul li:hover{
+    background-color: #cfcfcf;
+
+}
+
+.sidebar a{
+    color: #152238;
+}
+
+            /* Header */
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-width: 1500px;
+}
+
+.header{ 
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.headertext{
+    font-size: 30px;
+    color: gold;
+    width: auto;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: -2px 2px 2px white;
+}
+
+#controller {
+    height: 35%;
+    width: auto;
+    float: left;
+}
+            
+            /* Content */
+
+.main{
+    flex-grow: 1;
+    background: #152238;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 1400px;
+    margin-left: 300px;
+}
+
+.content {
+    height: 88%;
+    border: 2px gold solid;
+    padding-left: 30px;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'MS Gothic';
+}
+
+
+
+            /* Footer */
+
+.footer{
+    width: 100%;
+    height: 6%;
+    min-width: 1500px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+    color: gold;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    background-color: #0b1528;
+}
+
+.feedback{
+    color: aliceblue
+}
+

@@ -1,0 +1,81 @@
+body {
+    font-size: 40px;
+}
+
+/*CSS prioritizes the most specific grouping it can find for a given object. To determine
+which grouping will be used, check if it's referencing an ID. If both use an ID, count how
+many classes it has. The one with the most classes takes priority*/
+/*Prefix IDs with a '#'*/
+
+
+/*Color is used to control the actual color of text
+font-size is determined as either a px or em/rem value. Em is a 1:1 ratio of the font size
+for the document. (e.g. document is 20px text, a 2em object is 40px)
+text-align is what's used for aligned any text based element on a page*/
+#text2 {
+    color:#961464;
+    font-size: 20px;
+    text-align: right;
+    text-shadow: 0 0 3px green;
+}
+
+/*Prefix classes with a '.'*/
+.ex1 {
+    text-align: center;
+}
+
+/*Font-weight determines the thickness of the font (normal to bold)*/
+.ex2 {
+    font-weight:  500;
+}
+
+/*width and height control how an image appears on a page, but depending on the source 
+image, you may need to use max-min width/height
+background-color controls the color that takes up the background of the object
+border = solid line that surrounds the outside of the object
+padding = space between the edge of the object/content and the border
+margin = space between the outside edge of the border and the next object in that direction*/
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 10px dashed red;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 30px 30px 30px;
+}
+
+/*Top/Bottom/Left/Right - amount of space the object shoud have between it and the next 
+object in that direction.
+Position - controls how an object lines itself up in relation to the rest of the elements.
+relative = based on position of parent element
+absolute = absolute value for the page, allows element to move regardless of parent element's
+position/size
+Border-radius - Controls how round of an edge a box will have. 50% = perfect circle.*/
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 10px dashed red;
+    margin: auto;
+    top: 100px;
+    position: relative;
+    border-radius: 2em;
+    
+}
+
+.parent {
+    height: 500px;
+    width: 100%;
+}
+
+/*You can target an entire type of elements by listing that element type with no prefix*/
+p {
+    margin-top: 50px; 
+}
+
+/*You can daisy-chain classes together to target an element that has either all of the
+listed classes, or it inherits the classes from right to left (i.e. .ex1.ex2.ex3 would mean
+that the element has ex3, it's immediate parent has ex2, and the grandparent would have ex1*/
+.ex1.ex2 {
+    color: orange;
+}

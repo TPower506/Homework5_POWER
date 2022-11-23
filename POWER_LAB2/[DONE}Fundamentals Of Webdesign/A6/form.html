@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>A6 Bus Ticket By: Tony Power</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .form-inline {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+
+            .form-inline label {
+                margin: 5px 10px 5px 0;
+            }
+
+            .form-inline input {
+                vertical-align: middle;
+                margin: 5px 10px 5px 0;
+                padding: 10px;
+                background-color: #fff;
+                border: 1px solid #ddd;
+            }
+
+            .form-inline button {
+                padding: 10px 20px;
+                background-color: dodgerblue;
+                border: 1px solid #ddd;
+                color: white;
+                cursor: pointer;
+            }
+
+                .form-inline button:hover {
+                    background-color: royalblue;
+                }
+
+        @media (max-width: 800px) {
+            .form-inline input {
+                margin: 10px 0;
+            }
+
+            .form-inline {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <h2>New Brunsiwck Bus Company</h2>
+    <h3>Ticket Purchase</h3>
+    <form>
+        <fieldset>
+            <legend>Ticket Type:</legend>
+            <input type="radio" id="adult" name="tickettype" value="adultticket">
+            <label for="adult">Adult</label>
+            <input type="radio" id="child" name="tickettype" value="childticket">
+            <label for="child">Child</label>
+            <input type="radio" id="senior" name="tickettype" value="seniorticket">
+            <label for="senior">Senior</label>
+            <input type="radio" id="student" name="tickettype" value="studentticket">
+            <label for="student">Student</label>
+        </fieldset>
+    </form>
+    <br>
+        <form>
+                <label for="goingFrom">Going From:</label>
+                <select id="goingFrom" name="From">
+                    <option value="Bathurst">Bathurst</option>
+                    <option value="Campbellton">Campbellton</option>
+                    <option value="Edmunston">Edmunston</option>
+                    <option value="Fredricton">Fredricton</option>
+                    <option value="Miramichi">Miramichi</option>
+                    <option value="Moncton">Moncton</option>
+                    <option value="SaintAndrews">Saint Andrews</option>
+                    <option value="SaintJohn">Saint John</option>
+                    <option value="SaintStephen">Saint Stephen</option>
+                    <option value="Sussex">Sussex</option>
+                    <option value="Woodstock">Woodstock</option>
+                </select>
+            </form>
+
+                    <form>
+
+                    <label for="goingTo">Going To:</label>
+                    <select id="goingTo" name="To">
+                        <option value="Bathurst">Bathurst</option>
+                        <option value="Campbellton">Campbellton</option>
+                        <option value="Edmunston">Edmunston</option>
+                        <option value="Fredricton">Fredricton</option>
+                        <option value="Miramichi">Miramichi</option>
+                        <option value="Moncton">Moncton</option>
+                        <option value="SaintAndrews">Saint Andrews</option>
+                        <option value="SaintJohn">Saint John</option>
+                        <option value="SaintStephen">Saint Stephen</option>
+                        <option value="Sussex">Sussex</option>
+                        <option value="Woodstock">Woodstock</option>
+                    </select>
+</form>
+
+
+</body>
+
+
+</html>

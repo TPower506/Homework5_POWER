@@ -1,0 +1,42 @@
+1) Typefaces:
+Two examples of each of: a serif font, a sans serif font, a proportional font, a monospaced font.
+(Eight examples total)
+Times New Roman and Georgia
+https://www.w3schools.com/css/css_font.asp
+
+2) Font Sizes:
+Choose a font. Check the default font size for your browser. Display an example of a font size that is 50% smaller and a size that is 50% larger. Do this is four ways for each: using pixels, using points, using percentages, and using em units.
+(Eight examples total)
+http://pxtoem.com/ for conversions
+https://www.w3schools.com/css/css_font_fallbacks.asp
+
+
+3) Line Height:
+Choose a font and a size. Show an example of the default line height, a larger line height that you still consider pleasing, a larger line height that you consider too big, a smaller line height that you still consider pleasing, and a line height that you consider too small.
+(Five examples total)
+Important: Your examples should be sufficiently long to clearly illustrate the effects. Each sample should cover several lines.
+https://www.w3schools.com/cssref/pr_dim_line-height.asp
+
+
+4) Letter Spacing:
+Choose a font and a size. Show an example of the default letter spacing, a larger spacing that you still consider pleasing, a larger spacing that you consider too big, a smaller spacing that you still consider pleasing, and a smaller spacing that you consider too small.
+(Five examples total)
+https://www.w3schools.com/cssref/pr_text_letter-spacing.asp
+
+
+5) Fixed vs Liquid Layout:
+Choose a font and a size. Display an example of a paragraph using a liquid layout and an example of a paragraph using a fixed layout. Test the layouts by resizing the browser.
+(Two examples total)
+Important: Your examples should be sufficiently long to clearly illustrate the effects. Each sample should cover several lines.
+https://tutorial.techaltum.com/css_fixed_liquid_layout.html#fluid
+
+6) Contrast:
+Show one example of each of: a light-on-dark text block that you like, a light-on-dark text block that you don't like, a dark-on-light text block that you like, and a dark-on-light text block that you don't like.
+(Four examples total)
+https://www.tutorialspoint.com/codingground.htm
+
+
+7) Miscellaneous:
+Show one example of each of the CSS properties: font-style, font-weight, font-variant, and text-align.
+(Four examples total)
+https://www.w3schools.com/css/css_font_style.asp

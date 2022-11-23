@@ -1,0 +1,15 @@
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\bin\Debug\POWER_LAB2.exe.config
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\bin\Debug\POWER_LAB2.exe
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\bin\Debug\POWER_LAB2.pdb
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.csproj.AssemblyReference.cache
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.csproj.SuggestedBindingRedirects.cache
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.Lab2_Power.resources
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.Properties.Resources.resources
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.csproj.GenerateResource.cache
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.csproj.CoreCompileInputs.cache
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.exe
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.pdb
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\bin\Debug\POWER_LAB2.exe.manifest
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\bin\Debug\POWER_LAB2.application
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.exe.manifest
+C:\Users\tonyp\OneDrive\Desktop\Tony's School\Intro To Programming\LAB 2\POWER_LAB2\POWER_LAB2\obj\Debug\POWER_LAB2.application

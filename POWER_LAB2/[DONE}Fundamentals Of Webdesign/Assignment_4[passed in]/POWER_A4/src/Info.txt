@@ -1,0 +1,10 @@
+LAB 4 - Table desgined to give information on Provinces and Territories in Canada
+
+Websites Sourced:
+http://www.google.ca (tutorials and Canadian Flag Image)
+http://www.w3schools.com (tutorials)
+http://www.youtube.ca (video tutorials)
+
+//** Only issue I had was not being able to properly insert the nestled columns for Land/Water/Total in Area and Commons/Senate in Seats *// 
+
+By: Tony Power

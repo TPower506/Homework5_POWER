@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px outset darkgoldenrod;
+    color: darkgoldenrod;
+    background-color: #1c2b45;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content{
+    height: 920px;
+}
+
+.greeting{
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    color: gold;
+}
+
+.preview{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.preview img{
+    width: 400px;
+    height: 400px
+}
